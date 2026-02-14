@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background: radial-gradient(circle at top, #1a1c3a 0%, #0b0b19 45%, #070711 100%);
+  color: #f8f6ff;
+  min-height: 100vh;
+}
+
+.text-glow {
+  text-shadow: 0 0 18px rgba(255, 170, 214, 0.45);
+}
