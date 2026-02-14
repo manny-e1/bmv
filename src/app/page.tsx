@@ -124,7 +124,7 @@ function Train({
     phaseTime: 0
   });
   const segments = Math.max(1, stopsCount - 1);
-  const holdDuration = 2;
+  const holdDuration = 4;
   const moveDuration = 2;
 
   useEffect(() => {
@@ -411,7 +411,7 @@ export default function Home() {
                   clearTimeout(momentTimeoutRef.current);
                 }
                 setShowMoment(true);
-                momentTimeoutRef.current = setTimeout(() => setShowMoment(false), 2000);
+                momentTimeoutRef.current = setTimeout(() => setShowMoment(false), 4000);
                 if (index === allStops.length - 1) {
                   setArrived(true);
                   setShowModal(true);
