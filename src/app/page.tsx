@@ -531,7 +531,12 @@ export default function Home() {
           }
           {yesAccepted && (
             <div className="mt-6 rounded-2xl border border-pink-200/30 bg-pink-500/15 p-8 text-3xl text-pink-50">
-              You just made me the happiest man. Happy Valentine's my love!🌹
+              <p>
+                You just made me the happiest man. Happy Valentine's my love!🌹
+              </p>
+              <p className="text-center pt-2">
+                Tomorrow, 🫦🫵
+              </p>
             </div>
           )}
         </div>
